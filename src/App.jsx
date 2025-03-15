@@ -33,7 +33,7 @@ export default function App() {
 
   async function handleClick() {
 
-      const response = await axios.post("https://backend-zj0h.onrender.com", { username });
+      const response = await axios.post("https://backend-zj0h.onrender.com/login", { username });
       console.log(response.data);
   
   }
